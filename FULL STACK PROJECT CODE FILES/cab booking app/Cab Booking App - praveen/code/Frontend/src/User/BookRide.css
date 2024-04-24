@@ -1,0 +1,129 @@
+/* BookRide container */
+.book-ride-containe {
+    /* max-width: 400px; */
+    margin: 0 auto;
+    padding: 20px;
+    /* border: 1px solid #e0e0e0; */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fffd;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Heading styles */
+  h2 {
+    font-size: 24px;
+    color: #333;
+    /* margin-bottom: 20px; */
+  }
+  
+  /* Form styles */
+  .book-ride-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Form group styles */
+  .form-group {
+    margin: 15px 0;
+  }
+  
+  /* Label styles */
+  label {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Select input styles */
+  .select-group {
+    position: relative;
+    width: 100%;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  
+  /* Disabled option styles */
+  option:disabled {
+    color: #999;
+  }
+  
+  /* Input styles */
+  input[type="text"],
+  input[type="date"],
+  input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+  
+  /* Button styles */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background-color 0.2s;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Pickup and drop styles */
+  .pickup-section {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .drop-section {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .book-ride-container {
+      max-width: 100%;
+      padding: 10px;
+    }
+    
+    select, input[type="text"], input[type="date"], input[type="time"] {
+      padding: 8px;
+    }
+  }
+  
+  
+  #pic{
+    display: flex; 
+    justify-content: space-evenly;
+  
+  }
+  #pick{
+    display: flex;
+    justify-content: space-evenly;
+  }

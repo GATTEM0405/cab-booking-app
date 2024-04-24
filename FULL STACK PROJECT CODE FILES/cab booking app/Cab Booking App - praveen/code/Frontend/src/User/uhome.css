@@ -1,0 +1,47 @@
+/* Footer.css */
+
+.footer-container {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .footer-appname {
+    margin-top: 20px;
+  }
+  
+  .footer-copyright {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .bg{
+    background-color: black;
+    border-radius: 40px;
+    height: 60px;
+    width: 160px;
+    border: none;
+    color: white;
+    transition: transform 0.2s ease-in-out;
+    
+    margin-right: 750px;
+    /* justify-content: flex-start; */
+
+  }
+  
+.bg:hover {
+    background-color: black;
+   transform: scale(1.08);
+  }
+  
+  
